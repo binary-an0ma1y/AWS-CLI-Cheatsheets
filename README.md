@@ -1,5 +1,6 @@
-# AWS-CLI-Cheatsheets
-Simple AWS CLI cheatsheets with basic commands to get started with learning AWS CLI/CloudShell.
+# AWS CLI Cheatsheets made specifically for Beginners.
+Simple & Beginner-friendly cheatsheets for core AWS services with just the required basic commands to get started with AWS CLI and avoid being overwhelmed.
+
 
 ## List of basic operations covered in each cheatsheet
 1. [S3 Cheatsheet](Cheatsheets/S3-Cheatsheet.md):
