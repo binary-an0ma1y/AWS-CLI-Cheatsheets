@@ -8,11 +8,8 @@
 
 ## Creating Bucket
 
-### create a bucket in a specified region
+### Create a bucket in a specified region
 ```text
 aws s3api create-bucket --bucket my-bucket --region us-east-1
 ```
-
-## Listing
-
 
