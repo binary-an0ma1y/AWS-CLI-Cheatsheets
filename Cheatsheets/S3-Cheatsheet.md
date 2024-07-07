@@ -1,7 +1,7 @@
 # S3 Cheatsheet
 There are generally two ways to interact with the S3 service using CLI.
  1. ```aws s3``` is great for quick, common tasks with simplified outputs.
- 2. ```aws s3api``` is designed for tasks requiring JSON outputs, verbose details (or) advanced operations.
+ 2. ```aws s3api``` is designed for tasks requiring JSON output, verbose details or advanced operations.
 - *This cheatsheet contains commands that have both variations (s3 and s3api), you can use the ```aws s3``` based commands whenever possible as they are simpler to use unless you need JSON output or have specific requirements.*
 
 ## 1. Creating Buckets
