@@ -15,7 +15,7 @@ aws s3 mb s3://my-bucket-name123
 ```text
 aws s3api create-bucket --bucket my-bucket-name123
 ```
-Either of these commands will create a bucket in the default region 'us-east-1'
+Using any one of these two commands will create a bucket in the default region 'us-east-1'
 
 #### 1.2 Create a bucket in a specified region
 - using 'aws s3'
@@ -25,10 +25,6 @@ aws s3 mb s3://mybucket --region us-west-2
 - using 'aws s3api'
 ```text
 aws s3api create-bucket --bucket my-bucket-name123 --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2
-```
-- If you want to create a bucket in the us-east-1 region (N. Virginia), you can simply run the default command:
-```text
-aws s3 mb s3://my-bucket-name123
 ```
 
 ## Listing
