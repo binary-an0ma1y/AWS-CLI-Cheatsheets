@@ -1,5 +1,5 @@
 # AWS CLI Cheatsheets made specifically for Beginners.
-Simple & Beginner-friendly cheatsheets for core AWS services with just the required basic commands to get started with AWS CLI and avoid being overwhelmed.
+Simple & Beginner-friendly cheatsheets for core AWS services with just the required basic commands to get started.
 
 
 ## List of basic operations covered in each cheatsheet
