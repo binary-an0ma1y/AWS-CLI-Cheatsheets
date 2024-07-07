@@ -31,3 +31,5 @@ We welcome suggestions for new cheatsheets that can help beginners. To suggest a
    - A brief description of the topic.
    - A list of commands to be included.
    - A short explanation of what each command does.
+   
+For any further queries, you can reach out to me at [@virtualsage_](https://x.com/virtualsage_).

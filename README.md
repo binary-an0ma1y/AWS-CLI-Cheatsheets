@@ -12,4 +12,3 @@ Simple AWS CLI cheatsheets with basic commands to get started with learning AWS 
 
  
  *This project is in early stages and contributions are welcome. If you want to contribute read the [contributing](CONTRIBUTING.md) section.*
- Contact: [@virtualsage_](https://x.com/virtualsage_)
