@@ -22,7 +22,7 @@ If you find any issues with the cheatsheets, please open an issue and include:
 - Steps to reproduce the problem.
 - Any relevant command output or screenshots.
 
-Reporting typos, grammatical errors, improvements to command explanations, improvements to README.md and CONTRIBUTING.md can be opened as an issue.
+Issues can also be opened for typos/grammatical errors, improvements to command explanations, improvements to README.md & CONTRIBUTING.md.
 
 ### Suggesting New Cheatsheets
 
