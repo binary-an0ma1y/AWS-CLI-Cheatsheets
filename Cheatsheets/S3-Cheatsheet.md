@@ -16,9 +16,9 @@ aws s3 mb s3://my-bucket-name
 ```text
 aws s3api create-bucket --bucket my-bucket-name
 ```
-Using any of these two commands will create a bucket in the default region "us-east-1".
+Using any of these two commands will create a bucket in the default region which is generally "us-east-1".
 
-#### 1.2 Create a bucket in a specified region
+#### 1.2 Create a bucket in a specified region:
 - using 'aws s3'
 ```text
 aws s3 mb s3://my-bucket-name --region us-west-2
@@ -28,5 +28,63 @@ aws s3 mb s3://my-bucket-name --region us-west-2
 aws s3api create-bucket --bucket my-bucket-name --region us-west-2 --create-bucket-configuration LocationConstraint=us-west-2
 ```
 
-## Listing
-### work in progress..
+## 2. Listing
+
+#### 2.1 : Listing buckets:
+- using 'aws s3'
+```text
+aws s3 ls
+```
+- using 'aws s3api'
+```text
+aws s3api list-buckets
+```
+
+#### 2.2 : Check if a bucket with specified name exists:
+- using 'aws s3api'
+```text
+aws s3api list-buckets --query "Buckets[?Name == 'my-bucket-name'].Name"
+```
+It prints back the bucket name "my-bucket-name" if it exists, else it returns empty "[]".
+
+#### 2.3 : Listing objects in a bucket:
+- using 'aws s3'
+```text
+aws s3 ls s3://my-bucket-name
+```
+- using 'aws s3api'
+```text
+aws s3api list-objects --bucket my-bucket-name
+```
+Note that folder names are also included along with object names in the output.
+
+## 3. File Transfers
+
+#### 3.1 : Copy a localfile to a bucket:
+- using 'aws s3'
+```text
+aws s3 cp local-filename.txt s3://my-bucket-name/filename.txt
+```
+- using 'aws s3api'
+```text
+aws s3api put-object --bucket my-bucket-name --key filename.txt --content-type plain/txt --body local-filename.txt
+```
+
+#### 3.2 : Copy/sync multiple files from a local folder into a S3 bucket at once:
+- using 'aws s3'
+```text
+aws s3 sync local-foldername/ s3://my-bucket-name
+```
+This will copy contents of the local folder into the bucket.
+
+-----work in progress-----
+
+#### 3.3 : :
+- using 'aws s3'
+```text
+
+```
+- using 'aws s3api'
+```text
+
+```
