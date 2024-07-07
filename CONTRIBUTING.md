@@ -32,4 +32,4 @@ We welcome suggestions for new cheatsheets that can help beginners. To suggest a
    - A list of commands to be included.
    - A short explanation of what each command does.
    
-For any further queries, you can reach out to me at [@virtualsage_](https://x.com/virtualsage_).
+For any further queries, you can reach out to me at <a href="https://x.com/virtualsage_" target="_blank">X</a>
