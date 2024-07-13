@@ -77,14 +77,41 @@ aws s3 sync local-foldername/ s3://my-bucket-name
 ```
 This will copy contents of the local folder into the bucket.
 
------work in progress-----
-
-#### 3.3 : :
+#### 3.3 : Move localfile to a specified bucket:
 - using 'aws s3'
 ```text
+aws s3 mv local-filename.txt s3://my-bucket-name/filename.txt
+```
 
+#### 3.4 : Downloading file from a S3 bucket:
+- using 'aws s3'
+```text
+aws s3api get-object --bucket my-bucket-name --key object-filename.txt output-filename.txt
+```
+
+## 4. Deleting objects and buckets
+
+#### 4.1 : Delete an S3 object:
+- using 'aws s3'
+```text
+aws s3 rm s3://my-bucket-name/filename.txt
 ```
 - using 'aws s3api'
 ```text
+aws s3api delete-object --bucket my-bucket-name --key filename.txt
+```
 
+#### 4.2 : Delete all objects in a bucket:
+- using 'aws s3'
+```text
+aws s3 rm s3://my-bucket-name --recursive
+```
+
+#### 4.3 : Delete a bucket:
+
+Note: A bucket should be empty before it can be deleted (i.e. all objects in the bucket should be deleted - refer section 4.2) .
+
+- using 'aws s3'
+```text
+aws s3 rb s3://my-bucket-name
 ```
