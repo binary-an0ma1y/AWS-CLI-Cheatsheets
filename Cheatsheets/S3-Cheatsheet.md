@@ -115,3 +115,5 @@ Note: A bucket should be empty before it can be deleted (i.e. all objects in the
 ```text
 aws s3 rb s3://my-bucket-name
 ```
+
+---
