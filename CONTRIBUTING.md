@@ -1,30 +1,32 @@
-# Contributing to AWS-CLI-Cheatsheet
+# Contributing - AWS-CLI-Cheatsheets
 
-First off, thank you for taking the time to contribute!
+Thank you for considering to contribute!
 
-## Aim and Focus of the Repository
+## Key points to note:
 
-- **Basic Commands**: Contributions should focus on fundamental AWS CLI commands that are useful for beginners.Avoid advanced commands or features that might be overwhelming.
-- **Crisp yet Clear Explanations**: Each command should have a brief and clear explanation of what it does.
-- **Concise Cheatsheets**: Keep minimum number of entries in cheatsheets as far as possible by just covering the essential commands.
+- **Basic commands**: Contributions should focus on simple AWS CLI commands that are useful for beginners.Avoid advanced commands or features that might be overwhelming.
+- **Crisp yet clear explanations**: Each command should have a brief and clear explanation of what it does.
+- **Concise cheatsheets**: List only the minimum commands essential for each service/cheatsheet to ensure they remain "beginner-friendly-cheatsheets" and do not appear like extensive documentation.
 
 ## How Can I Contribute?
 
+### Suggesting New AWS Cheatsheets
+
+We welcome suggestions for new cheatsheets that can help beginners. To suggest a new cheatsheet:
+Open an issue and provide:
+- A brief description of the topic.
+- A list of commands to be included.
+- A short explanation of what each command does.
+   
+For any further queries, you can reach out to me on <a href="https://x.com/virtualsage_" target="_blank">X</a>
+
 ### Reporting Issues
 
-If you find any issues with the cheatsheets, please open an issue and include:
-- A clear description of the problem.
-- Steps to reproduce the problem.
+Please open an issue and include:
+- A clear description of the issue.
+- Steps to reproduce it.
 - Any relevant command output or screenshots.
+Note: (please make sure to remove any PII, API/encryption keys and credentials before uploading screenshots or data)
 
 Issues can also be opened for typos/grammatical errors, improvements to command explanations, improvements to README.md & CONTRIBUTING.md.
 
-### Suggesting New Cheatsheets
-
-We welcome suggestions for new cheatsheets that can help beginners. To suggest a new cheatsheet:
-1. Open an issue and provide:
-   - A brief description of the topic.
-   - A list of commands to be included.
-   - A short explanation of what each command does.
-   
-For any further queries, you can reach out to me on <a href="https://x.com/virtualsage_" target="_blank">X</a>
