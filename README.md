@@ -1,7 +1,7 @@
 # AWS CLI Cheatsheets for Beginners
 Cheatsheets with just the required basic commands to get started with AWS CLI.
 
-[![HitCount](https://hits.dwyl.com/binary-an0ma1y/AWS-CLI-Cheatsheets.svg?style=flat)](http://hits.dwyl.com/binary-an0ma1y/AWS-CLI-Cheatsheets)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fbinary-an0ma1y%2FAWS-CLI-Cheatsheets.json%3Fcolor%3Dpink)
 
 ## List of basic operations covered in each cheatsheet:
 1. [S3 Cheatsheet](Cheatsheets/S3-Cheatsheet.md)
