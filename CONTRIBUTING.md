@@ -10,6 +10,10 @@ Thank you for considering to contribute!
 
 ## How Can I Contribute?
 
+### Contributing to Existing Cheatsheets
+
+Adding new commands, maintaining and updating existing commands in cheatsheets.
+
 ### Suggesting New AWS Cheatsheets
 
 We welcome suggestions for new cheatsheets that can help beginners. To suggest a new cheatsheet:
@@ -17,8 +21,6 @@ Open an issue and provide:
 - A brief description of the topic.
 - A list of commands to be included.
 - A short explanation of what each command does.
-   
-For any further queries, you can reach out to me on <a href="https://x.com/virtualsage_" target="_blank">X</a>
 
 ### Reporting Issues
 
@@ -26,6 +28,7 @@ Please open an issue and include:
 - A clear description of the issue.
 - Steps to reproduce it.
 - Any relevant command output or screenshots.
+
 Note: (please make sure to remove any PII, API/encryption keys and credentials before uploading screenshots or data)
 
 Issues can also be opened for typos/grammatical errors, improvements to command explanations, improvements to README.md & CONTRIBUTING.md.
