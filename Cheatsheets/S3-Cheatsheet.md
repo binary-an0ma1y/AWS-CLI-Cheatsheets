@@ -58,6 +58,12 @@ aws s3api list-objects --bucket my-bucket-name
 ```
 Note that folder names are also included along with object names in the output.
 
+#### 2.4 : Retrieve & list the metadata of an object:
+- using 'aws s3api'
+```text
+aws s3api head-object --bucket my-bucket-name --key filename.txt
+```
+
 ## 3. File Transfers
 
 #### 3.1 : Copy a localfile to a bucket:
