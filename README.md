@@ -4,7 +4,7 @@
 
 Cheatsheets with basic commands to get started with AWS CLI.
 
-## List of basic operations covered in each cheatsheet:
+## Cheatsheet list:
 1. [S3 Cheatsheet](Cheatsheets/S3-Cheatsheet.md)
  - Creating buckets
  - Listing buckets and objects
