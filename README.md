@@ -1,4 +1,6 @@
-# AWS CLI Cheatsheets for Beginners ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fbinary-an0ma1y%2FAWS-CLI-Cheatsheets.json%3Fcolor%3Dgreen)
+# AWS CLI Cheatsheets for Beginners  
+
+<!-- [![HitCount](https://hits.dwyl.com/binary-an0ma1y/AWS-CLI-Cheatsheets.svg?style=flat&show=unique)](http://hits.dwyl.com/binary-an0ma1y/AWS-CLI-Cheatsheets) -->
 
 Cheatsheets with just the required basic commands to get started with AWS CLI.
 
